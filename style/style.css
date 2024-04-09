@@ -36,10 +36,56 @@ ul>li{
     border: none;
     padding: .5rem 1.3rem;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display:inline;
 }
 
 button.white{
     background-color: white;
     font-weight: bold;
     font-size: 1.1em;
+}
+
+button.black{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+header>section:nth-child(2){
+    background-image: url(../discord-imgs/img/jumbo.png);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 20rem;
+}
+
+    header>section:nth-child(2)>h2{
+    font-size:3.5em;
+    font: 100;
+    margin-bottom: 1rem;
+}
+
+    header>section:nth-child(2)>p{
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.35em;
+    margin-bottom: 1.5rem;
+}
+
+.btn-container{
+    display: flex;
+}
+
+.btn-container>button{
+    font-size: 1.3em;
+    padding: .8em .5em;
+    margin-right: 1em;
+    font-size: medium;
 }
