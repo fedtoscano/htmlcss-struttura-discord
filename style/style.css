@@ -16,7 +16,7 @@ width: 15%;
 height: 5%;
 }
 
-nav{
+.nav-container>nav{
     text-align: center;
     display: flex;
     justify-content: center;;
@@ -156,24 +156,72 @@ footer{
 footer>section{
 display: flex;
 justify-content: space-between;
-padding: 1rem 1rem;
-margin-left: 3rem;
+padding: 3rem 1rem;
+margin: 0 10rem
 }
 
-.ext-links{
+
+.language>span:first-of-type>img{
+    width: 20px;
+}
+
+.languagel>span:nth-of-type(2){
+    color: rgb(92, 123, 214);
+}
+.lang-social{
+    margin-right: 2rem;
+}
+.ext-links>nav>ul>li:first-of-type{
+    color: rgb(92, 123, 214);
+    font-weight: bold;
+}
+
+select{
+    border: none;
+    color: white;
+    padding: .3rem;
+    background-color:rgb(34, 38, 41);
+}
+
+.lang-social>span:first-of-type{
+    color: rgb(92, 123, 214);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.lang-social>.language>span:nth-of-type(2){
+    margin-right: .3rem;
+}
+.lang-social{
+    display: inline-block;
+    width: 20%;
+}
+.ext-links>nav{
     display:flex;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+    margin-right: 10rem;
 }
 
-.ext-links>ul{
+.ext-links>nav>ul{
     list-style-type: none;
-    margin-right: 8rem;
     line-height: 2.5rem;
+}
+.ext-links>nav>ul>li{
+    font-size: .8em;
+}
+
+hr{
+    margin: 0 10rem;
+    border:1px solid rgb(92, 123, 214);
 }
 
 footer>footer{
 padding: 1rem 1rem;
-margin-left: 3rem;
-margin-right: 8rem;
+margin: 0 10rem;
+display: flex;
+justify-content: space-between;
+}
+
+footer>footer>.blue{
+    font-size: 1rem;
 }
