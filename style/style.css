@@ -10,6 +10,7 @@
     background-color: rgb(37, 92, 232);
     padding: 1.7rem 7rem;
 }
+
 .logo-container{
 width: 15%;
 height: 5%;
@@ -88,4 +89,24 @@ header>section:nth-child(2){
     padding: .8em .5em;
     margin-right: 1em;
     font-size: medium;
+}
+main>section{
+    padding: 5rem 10rem;
+    align-items: center;
+}
+main>section:nth-of-type(odd){
+    background-color: white;
+    display: flex;
+}
+
+main>section:nth-of-type(even){
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+main>footer{
+    display:flex;
+    flex-direction: column;
+    padding: 5rem 20rem;
 }
