@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/* HEADER */
 .nav-container{
     display:flex;
     justify-content: space-between;
@@ -97,11 +99,14 @@ header>section:nth-child(2){
     margin-right: 1em;
     font-size: medium;
 }
+
+/* MAIN */
 main>section{
     padding: 5rem 10rem;
     align-items: center;
     justify-content: center;
 }
+
 main>section:nth-of-type(odd){
     background-color: white;
     display: flex;
@@ -124,7 +129,10 @@ main>section:last-of-type{
 main>section:last-of-type>img{
     width: 70%
 }
-
+main>section .text>h2{
+    font-size: 2.5em;
+    margin-bottom: 1em;
+}
 main>footer{
     background-color: rgb(245, 245, 245);
     display: flex;
@@ -175,6 +183,10 @@ margin: 0 10rem
 .ext-links>nav>ul>li:first-of-type{
     color: rgb(92, 123, 214);
     font-weight: bold;
+}
+
+.icons i{
+    margin-right: 1em;
 }
 
 select{
