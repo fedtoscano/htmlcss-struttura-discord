@@ -129,10 +129,16 @@ main>section:last-of-type{
 main>section:last-of-type>img{
     width: 70%
 }
+main>section:last-of-type>.text>p{
+    margin: 0 5rem;
+    font-size: 1.2em;
+}
+
 main>section .text>h2{
     font-size: 2.5em;
     margin-bottom: 1em;
 }
+
 main>footer{
     background-color: rgb(245, 245, 245);
     display: flex;
